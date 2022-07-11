@@ -1,7 +1,12 @@
 import React from "react";
+import { InputStyle } from "./style";
 
 function Input(props){
-  return(<input type={props.type} placeholder={props.placeholder}/>)
+  return(
+      <InputStyle>
+        <input type={props.type} placeholder={props.placeholder}/>
+      </InputStyle>
+    )
 }
 
 export default Input;

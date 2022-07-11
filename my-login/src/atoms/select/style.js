@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
-export const InputStyle = styled.div`
-  input{
+export const SelectStyle = styled.div`
+  select{
     width: 100%;
     background-color: white;
     height: 40px;
