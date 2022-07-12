@@ -6,6 +6,8 @@ export const ButtonStyle = styled.div`
     background-color: rgba(128, 128, 128, 0.119);
     height: 50px;
     border: none;
-    cursor: pointer;
+    cursor: auto;
+    color: gray;
+    font-weight: 800;
   }
 `
