@@ -98,7 +98,7 @@ function Form(props){
         <Footnotes content="Minimum 8 caracteres"/>
         <Button name="Next" id="btn"/>
         <div id="lastParagraph">
-          <Subtitle content={`By clicking the "Next" button, you agree to creating a free account, and to ${<span>Terms of Service</span>} and ${<span>Privacy Policy</span>}`}/>
+          <Subtitle content={`By clicking the "Next" button, you agree to creating a free account, and to Terms of Service and Privacy Policy`}/>
         </div>
       </form>
     </FormStyle>

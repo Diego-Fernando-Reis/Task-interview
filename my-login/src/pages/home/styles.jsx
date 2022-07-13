@@ -18,6 +18,10 @@ export const HomeStyle = styled.div`
       form{
         max-width: 500px;
         margin: 0 auto;
+        span{
+          font-size: 12px;
+          margin-bottom: 40px;
+        }
         p{
           font-size: 15px;
           font-weight: bold;
@@ -25,7 +29,8 @@ export const HomeStyle = styled.div`
           margin-bottom: 25px;
           span{
             color: rgb(0, 118, 197);
-            cursor: auto;
+            cursor: pointer;
+            font-size: 15px;
           }
         }
         h1{
@@ -37,6 +42,7 @@ export const HomeStyle = styled.div`
           font-size: 15px;
           font-weight: 600;
         }
+        button{margin-top: 40px;}
       }
     }
     .right{
@@ -50,6 +56,15 @@ export const HomeStyle = styled.div`
         text-align: left;
         width: 400px;
         margin: 0 auto;
+        
+      }
+    }
+    @media screen and (max-width: 1100px){
+      .left{
+        width: 100%;
+      }
+      .right{
+        display: none;
       }
     }
 `
